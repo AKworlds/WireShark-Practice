@@ -1,0 +1,36 @@
+# 📝 Exercise 2: Sus file
+
+## 📌 Overview
+This analysis documents a security incident involvng a malicious file downloaded through a fake Google Authenticator advertisemnet campaign.
+
+## 📊 Key Objectives
+- Identify infected Windows client IP address, MAC address, and hostname
+- Determine user account involved in the incident
+- Analyze packet capture data to identify C2 infrastructure
+- Document malicious domain names associated with fake Google Authenticato
+
+## 🔎 Packet Capture Details
+| **Protocol** | **Filter Used**  | **Observation** |
+|-------------|----------------|-----------------------|
+| **HTTP** | `tcp.port == 443` | Track malicious file downloads |
+| **DNS**  | `dns`             | Used to Identify hostname resoltion|
+| **dhcp** | `dhcp`            | Identify client machine details |
+
+## 📥 PCAP File
+🔗 **[Download example1.pcap](../pcap-files/example1.pcap)**
+
+## 📷 Screenshot
+![Wireshark Screenshot](../Screenshot.png)
+
+## 🚀 Summary
+- IP address of infected Windows client : 10.1.17.215
+- Mac address of the infected Windows client: 00:d0:b7:26:4a:74
+- Host name of the infected Windows client:: DESKTOP-L8C5GSJ
+- User account name: shutchenson
+- Fake domain name: authenticator.org
+- IP addresses used for C2 traffic: 5.252.153.241, 45.125.66.32, 45.125.66.252
+ ## Conclusion
+This analysis documents a security incident where a user downloaded malicious software while searching for Google Authenticator. 
+The infection was confirmed through packet capture analysis, revealing communications between an internal host (10.1.17.215) and a suspicious external server (23.40.146.4) over HTTPS.
+The affected system, identified by its Intel MAC address (00:d8:b7:26:4a:74), established encrypted communications on TCP port 443, consistent with known malvertising campaign patterns. 
+This incident highlights the importance of ad security and verification of legitimate software sources, as well as the effectiveness of network monitoring in detecting potentially malicious activities.
