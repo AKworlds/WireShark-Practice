@@ -20,7 +20,7 @@ This analysis documents a security incident involvng a malicious file downloaded
 🔗 **[Download example1.pcap](../pcap-files/example1.pcap)**
 
 ## 📷 Screenshot
-![Wireshark Screenshot](../Screenshot.png)
+![Image](https://github.com/user-attachments/assets/cd5a018f-fe5b-461c-b812-734235a5d274)
 
 ## 🚀 Summary
 - IP address of infected Windows client : 10.1.17.215
