@@ -45,4 +45,4 @@ Here are the **Wireshark exercises** I've completed with analysis:
    - Look for **suspicious IP addresses**, **malformed packets**, and **unusual traffic patterns**.
 
 ## 📫 Connect with Me
-🔗 [Portfolio Website](https://yourwebsite.com) | 🔗 [LinkedIn](https://linkedin.com/in/yourname)
+🔗 [Portfolio Website](https://yourwebsite.com) | 🔗 [LinkedIn](www.linkedin.com/in/akmara)
