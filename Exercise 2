@@ -17,7 +17,7 @@ This analysis documents a security incident involvng a malicious file downloaded
 | **dhcp** | `dhcp`            | Identify client machine details |
 
 ## 📥 PCAP File
-🔗 **[Download example1.pcap](../pcap-files/example1.pcap)**
+🔗 **[Download example2.pcap](https://malware-traffic-analysis.net/2025/01/22/2025-01-22-traffic-analysis-exercise.pcap.zip)**
 
 ## 📷 Screenshot
 ![Image](https://github.com/user-attachments/assets/cd5a018f-fe5b-461c-b812-734235a5d274)
