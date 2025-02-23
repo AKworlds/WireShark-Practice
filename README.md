@@ -18,7 +18,7 @@ Here are the **Wireshark exercises** I've completed with analysis:
 1. **[Exercise 1: Basic Packet Capture](https://github.com/yourusername/wireshark-practice/exercise1.md)**
    - Capturing live traffic and using filters to analyze HTTP, DNS, and ICMP packets.
    
-2. **[Exercise 2: Suspicious file downloaded](https://github.com/yourusername/wireshark-practice/exercise2.md)**
+2. **[Exercise 2: Suspicious file downloaded](https://github.com/AKworlds/WireShark-Practice/blob/exercises/Exercise%202)**
    - Identifying what services were affected and how.
 
 3. **[Exercise 3: DNS Traffic Analysis](https://github.com/yourusername/wireshark-practice/exercise3.md)**
